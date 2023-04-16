@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Bigelow+Rules&family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    outline: none !important;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+    position: relative;
+    z-index: 1000000;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
