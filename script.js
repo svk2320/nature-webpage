@@ -1,3 +1,5 @@
+AOS.init();
+
 $(document).scroll(function () {
   $(".navbar").toggleClass(
     "scrolled",
