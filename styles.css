@@ -63,7 +63,8 @@ p {
   margin-bottom: 0;
 }
 
-.banner::before {
+.banner::before,
+.sec2::before {
   content: '';
   position: absolute;
   top: 0;
@@ -74,7 +75,8 @@ p {
   pointer-events: none;
 }
 
-.banner::after {
+.banner::after,
+.sec2::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -143,5 +145,67 @@ p {
 }
 
 .placeBox .imgBx img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
 
+.placeBox .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: baseline;
+  align-items: flex-end;
+}
+
+.placeBox .content h3 {
+  position: relative;
+  margin: 0;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.95);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  width: 100%;
+  text-align: center;
+}
+
+.placeBox .content h3 span {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.sec2 {
+  position: relative;
+  background: url('./images/banner2.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.sec2 h2 {
+  font-weight: 800;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 4.5rem;
+}
+
+.btnD1 {
+  border: 2px solid #fff;
+  color: #000;
+  background: #fff;
+  border-radius: 50px;
+  padding: 15px 50px;
+  font-size: 1.15rem;
+  outline: none;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.blog {
+  position: relative;
+  padding: 100px 0;
+  background: #000;
 }
